@@ -13,4 +13,6 @@ export default NextAuth({
       clientSecret: process.env.GOOGLE_CLIENT_SECRET!,
     }),
   ],
+  // NEXTAUTH_SECRET :"atr5-gt65-9jet"
+ secret: process.env.NEXTAUTH_SECRET,
 });
